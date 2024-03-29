@@ -1,0 +1,770 @@
+  /* wrap */
+  .wrap {
+    min-width: 1020px}
+
+
+/* MAIN layout */
+.main {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+/* 메인 이미지 */
+.main_image_wrap {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.main_image {
+    width: 1920px;
+    margin: auto;
+    vertical-align: bottom;
+    position: relative;
+}
+.main_image_aa {
+    width: 1020px;
+    position: relative;
+    margin: auto;
+}
+.main_image_info {
+    width: 360px;
+    height: 259px;
+    position: absolute;
+    top: -360px;
+    left: 218px;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.main_image_title {
+    display: block;
+    height: 42px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.main_image_title::after {
+    content: "⎯";
+    color: #b0afb6;
+    display: block;
+}
+.main_image_desc01 {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 48px;
+}
+.main_image_desc02 {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+
+/* 리본 배너 */
+.ribbon {
+    width: 1020px;
+    margin: 0 auto 50px;
+}
+.ribbon ul {
+    display: flex;
+    justify-content: space-around;
+}
+.ribbon ul li img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+/* advertise01 */
+.advertise01 {
+    width: 1020px;
+    margin: 50px auto 0;
+    display: flex;
+    position: relative;
+}
+.advertise01 h2 {
+    display: block;
+    width: 450px;
+    height: 62px;
+    vertical-align: bottom;
+}
+.advertise01 ul li {
+    display: inline-block;
+    width: 235px;
+    height: 318px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.advertise01 ul li img {
+    width: 215px;
+    height: 215px;
+    margin-bottom: 8px;
+}
+.advertise01_prod_title {
+    width: 215px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-wrap: wrap;
+}
+.fixed_price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #a9a9aa;
+}
+.discount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e02020;;
+}
+.advertise01_price {
+    width: 215px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.advertise01_btn {
+    width: 215px;
+    margin: 2px 0 0 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.icon_bag {
+    display: block;
+    width: 16px;
+    height: 18px;
+    background: url(../image/icon_bag.png) no-repeat;
+    text-indent: -9999px;
+}
+.recommend_more {
+    position: absolute;
+    top: 85%;
+    left: 80px;
+    display: block;
+    width: 335px;
+    height: 40px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+
+}
+.btn_more {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #aaa;
+    position: absolute;
+    top: 40px;
+    right: 32px;
+    letter-spacing: 2px;
+    padding-right: 10px;
+
+    background: url(../image/ico_more.png) no-repeat;
+    background-size: 5px 10px;
+    background-position: right;
+}
+
+/* 유사한 고객님이 많이 구매했어요 */
+.ai {
+    width: 50%;
+    height: 488px;
+    position: relative;
+    margin-top: 10px 0 0 0 ;
+}
+.ai ul {
+    display: flex;
+    justify-content: center;
+}
+
+/* 고객님을 위한 추천 상품 */
+.personal {
+    width: 510px;
+    height: 488px;
+    position: relative;
+}
+.personal ul {
+    display: flex;
+    margin-top: 10px 0 0 0 ;
+
+    justify-content: center;
+}
+
+
+/* Weekly Special */
+    .weekly_special {
+        width: 1020px;
+        margin: 0 auto 50px;
+    }
+    .weekly_special h2 {
+        height: 40px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .weekly_special ul li img {
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+    .weekly_special ul {
+        display: flex;
+        justify-content: center;
+        gap:16px
+    }
+    .weekly_special ul li {
+        position: relative;
+    }
+    .weekly_special_title {
+        font-size: 21px;
+        font-weight: 700;
+        position: absolute;
+        top: 100px;
+        width: 472px;
+        margin-left: 24px;
+    }
+    .title_hashtag {
+        font-size: 15px;
+        color: #666;
+    }
+
+
+/* 인기 행사만 모았어요! */
+.popluar_event_top {
+    position: relative;
+    width: 1020px;
+}
+    .btn_group {
+        width: 110px;
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        top: 12px;
+        right: 0;
+        
+    }
+ 
+    .btn_page {
+        display: block;
+        width: 24px;      
+    height: 24px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    text-align: center ;
+    font-weight: bold;
+
+    font-size: 14px;
+    line-height: 24px;
+    }
+    .btn_page:hover {
+        display: block;
+        width: 24px;      
+    height: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center ;
+    font-weight: bold;
+
+    font-size: 14px;
+    line-height: 24px;
+    }
+
+
+
+    .popular_event {
+        width: 1020px;
+        margin: 0 auto 50px;
+    }
+    .popular_event_mask {
+        display: flex;
+        margin-top: 8px;
+    }
+    .popular_event h2 {
+        display: block;
+        width: 1020px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #D9D9D9;
+        font-size: 26px;
+        text-align: center;
+    }
+    .popular_event_wrap {
+        display: inline-block;
+        width: 520px;
+        height: 620px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .popular_event_wrap img {
+        width: 488px;
+        height: 300px;
+        text-align: center;
+    }
+    .popular_event_prod_desc {
+        display: block;
+        width: 314px;
+        height: 91px;
+        margin-left: 28px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 72px;
+    }
+    .popular_event_wrap02 {
+        display: flex;
+        width: 475px;
+        height: 360px;
+        background-color: whitesmoke;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 250px;
+        left: 16px;
+        
+    }
+    .popular_event_wrap02 img {
+        width: 215px;
+        height: 215px;
+        margin-bottom: 15px;
+    }
+
+
+/* 올리브영 매거진 */
+    .magazine {
+        width: 1020px;
+        height: 407px;
+        margin: 0 auto 50px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #magazine h2 {
+        width: 1020px;
+        height: 40px;
+        margin: 0 auto 8px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .magazine li img {
+        width: 240px;
+        height: 288px;
+        border-radius: 4px;
+    }
+    .magazine li p {
+        margin-top: 15px;
+    }
+
+
+/* 아이콘 */
+.icon_flag_delivery {
+    display: inline-block;
+    width: 60px;
+    background-color: #f374b7;
+    width: 48px;
+    height: 18px;
+    border-radius: 9px;
+    line-height: 17px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon_flag_gift {
+    display: inline-block;
+    background-color: #6fcff7;
+    width: 40px;
+    height: 18px;
+    border-radius: 9px;
+    line-height: 17px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon_flag_sale {
+    display: inline-block;
+    background-color: #f65c60;
+    width: 40px;
+    height: 18px;
+    border-radius: 9px;
+    line-height: 17px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.only_olive {
+    width: 1020px;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.only_olive li {
+    position: relative;
+}
+.only_olive li img {
+    height: 145px;
+    border-radius: 2px;
+
+}
+#only_olive h2 {
+    height: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+.only_olive_title {
+width: 154px;
+    position: absolute;
+    font-size: 16px;
+
+    top: 32px;
+    left:16px;
+   color: black;
+    font-weight: 800;
+}
+.only_olive_hashtag {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.md_recomm {
+    width: 1020px;
+    margin: 0 auto 50px;
+
+}
+.md_recomm ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.md_recomm ul li {
+    display: flex;
+    width: 450px;
+    height: 175px;
+    justify-content: space-between;
+}
+.md_recomm h2 {
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+}
+.md_recomm ul li a img {
+    width: 175px;
+    height: 175px;
+}
+.md_title {
+    display: block;
+    color: #777;
+    width: 255px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.md_desc {
+    display: block;
+    color: black;
+    width: 255px;
+    font-size: 14px;
+}
+.md_fixed {
+    display: block;
+    width: 255px;
+    font-size: 14px;
+    font-weight: 700;
+    color : #777;
+    text-decoration: line-through;
+
+}
+.md_discount {
+    display: block;
+    width: 255px;
+    font-size: 20px;
+    font-weight: 700;
+    color : red;
+}
+.prod_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    text-align: left;
+    padding: 24px 0;
+}
+
+/* 이 상품 어때요? */
+    .howAbout {
+        width: 1020px;
+        margin: auto;
+    }
+    .howAbout h2 {
+        display: block;
+        width: 1020px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #D9D9D9;
+        font-size: 26px;
+        text-align: center;
+    }
+    .howAbout img {
+        width: 215px;
+        height: 215px;
+        margin-bottom: 15px;
+    }
+    .howAbout_info {
+        width: 215px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .howAbout_btn {
+        width: 215px;
+        display: flex;
+        justify-content: center;
+    }
+    .howAbout_title {
+        color: #777;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .howAbout_desc {
+        color: black;
+        font-size: 14px;
+    }
+    .howAbout_price {
+        width: 215px;
+        padding: 2px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px
+    }
+    .discount_price {
+        color: #e02020;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .howAbout_mask ul {
+        margin: auto;
+        display: flex;
+        width: 3020px;
+        gap: 40px;
+        padding-top: 30px;
+    }
+    .mask {
+        width: 1020px;
+
+        overflow: hidden;
+
+    }
+    .howAbout_mask ul li {
+        width: 215px;
+        height: 345px;
+        position: relative;
+    }
+    .howAbout_best {
+        display: block;
+        width: 45px;
+        height: 45px;
+        line-height: 44px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: #f05a5e;
+        border: 2px solid #f05a5e;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+    }
+
+
+
+.update {
+    width: 1020px;
+    margin: 0 auto 50px;
+}
+.update ul {
+    display: flex;
+    justify-content: space-between;
+}
+.update a img {
+   width: 500px;
+   height: 282px;
+
+   border-radius: 4px;
+}
+.update h2 {
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.attention h2 {
+    height: 40px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.attention {
+    width: 1020px;
+    height: 640px;
+    margin: 0 auto 50px;
+    box-sizing: border-box;
+}
+
+.brand_list {
+    color: #757d86;
+    display: flex;
+    justify-content: space-between;
+    min-width: 160px;
+    gap: 3px;
+    width: 1020px;
+    height: 74px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.brand_list li {
+   display: inline-block;
+   height: 34px;
+   border: 1px solid #757d86;
+   border-radius: 20px;
+   padding: 5px 16px;
+   box-sizing: border-box;
+   font-size: 14px;
+   background: #fff;
+   border: 1px solid #dadde0;
+}
+
+
+.attention_list02 {
+    display: flex;
+}
+.attention_list02 li {
+    width: 450px;
+    display: flex;
+}
+.attention_list02 li a img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.customer_service {
+    width: 1020px;
+    margin: 50px auto 50px;
+    border-top: 1px solid black;
+    position: relative;
+}
+.customer_service img {
+    width: 340px;
+    position: absolute;
+    right: 2px;
+    top: 10px;
+}
+.customer_service_left h2 {
+    width: 95px;
+}
+.customer_service_left {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+.notice {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    position: relative;
+}
+.notice p {
+    width: 290px;
+    margin-right: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #666666;
+}
+.center_info {
+    width: 640px;
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.center_number {
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+
+    gap:16px;
+}
+.center_number dt {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #888;
+}
+.time_info p {
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+.online_tel {
+    display: block;
+    background: url(../image/img_online_tel.png) no-repeat;
+    width: 145px;
+    height: 22px;
+    background-size: contain;
+    text-indent: -9999px;
+}
+.offline_tel {
+    display: block;
+    background: url(../image/img_offline_tel.png) no-repeat;
+    width: 145px;
+    height: 22px;
+    background-size: contain;
+    text-indent: -9999px;
+}
+.center_info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 140px;
+    height: 60px;
+    background: #aaa;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -.02em;
+    text-align: center;
+
+}
+.time_info_btn {
+    gap: 8px;
+    display: flex;
+    
+}
+.time_info > .time_info_bottom {
+    color: #888888;
+    line-height: 22px;
+}
+.more_btn {
+    position: absolute;
+    right: -218px;
+    top: 20px
+}

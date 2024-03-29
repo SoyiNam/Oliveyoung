@@ -1,0 +1,39 @@
+body, header, main, footer, section, nav, div, h1, h2, h3, p, ul, li, dl, dt, dd, form, fieldset, legend, input, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "맑은 고딕", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+address {
+    font-style: normal;
+}
+fieldset, img {
+    border: none
+}
+img {
+    vertical-align: bottom;
+}
+input, button {
+    vertical-align: center;
+}
+button {
+    cursor: pointer;
+}
+.hide {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: -1px;
+    text-indent: -9999px;
+}

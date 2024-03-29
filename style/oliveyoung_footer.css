@@ -1,0 +1,185 @@
+/* footer 레이아웃 */
+.footer_wrap {
+    width: 100%;
+    background: #f9f9f9;
+    border-top: 2px solid #999;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 사이트 이용 정보 */
+    .info_wrap {
+        width: 1020px;
+        height: 52px;
+        display: block;
+        margin: auto;
+    }
+    .info_wrap ul {
+        display: flex;
+        justify-content: flex-start
+    }
+    .info_wrap ul li {
+        height: 52px;
+        padding: 18px 0 0 0;
+        display: inline-block;
+    }
+    .info_wrap ul li a {
+        color: #666;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .info1::after {
+        content: "⎜";
+        margin: 0 20px;
+        color: #666;
+    }
+    .info2::after {
+        content: "⎜";
+        margin: 0 20px;
+        color: #666;
+    }
+    .info3::after {
+        content: "⎜";
+        margin: 0 20px;
+        color: #666;
+    }
+    .info4::after {
+        content: "⎜";
+        margin: 0 20px;
+        color: #666;
+    }
+    .info5::after {
+        content: "⎜";
+        margin: 0 20px;
+        color: #666;
+    }
+
+/* 패밀리 사이트 */
+    .family_site_wrap {
+        width: 1020px;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    .fruitSelect {
+        width: 235px;
+        height: 30px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid #777777;
+        position: absolute;
+        top: -40px;
+        right: 0;
+        font-size: 14px;
+        color: #666666;
+        background-color: #f9f9f9;
+    }
+
+/* footer 하단 */
+    .footer_bottom_wrap {
+        width: 100%;
+    }
+    .footer_bottom_cont {
+        width: 1020px;
+        height: 175px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* footer 로고 */
+    .footer_logo img {
+        width: 146px;
+        height: 24px;
+        display: block;
+    }
+
+/* 회사 정보 */
+    .company_info {
+        width: 320px;
+    }
+    .company_info p, address {
+        color: #777777;
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+        display: inline-block;
+    }
+    .company_info h2 {
+        font-size: 12px;
+        display: block;
+        margin-bottom: 8px;
+    }
+    .ceo::after {
+        content: "⎜";
+    }
+
+/* 약관 및 정책 */
+    .term {
+        color: #777777;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .personalData {
+        color: black;
+        font-weight: bold;
+    }
+
+/* 하나은행 */
+    .hanaBank {
+        width: 185px;
+    }
+    .hanaBank h2 {
+        font-size: 12px;
+        color: black;
+        margin-bottom: 7px;
+    }
+    .hanaBank p {
+        color: #777777;
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+        display: inline-block;
+    }
+    .hanaBank a {
+        display: block;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+/* 기타 */
+    .footer_caution {
+        display: block;
+        width: 1020px;
+        padding: 20px 0 20px 218px;
+        box-sizing: border-box;
+        margin: auto;
+        font-size: 11px;
+        color: #777777;
+        border-bottom: 1px solid #ddd;
+    }
+
+/* 정보보호 관리체계 */
+    .protectData {
+        display: flex;
+        width: 1020px;
+        height: 53px;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+        color: #777777;
+    }
+    .protectData01 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* 최하단 */
+    .low_end {
+        width: 100%;
+        height: 40px;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ddd;
+    }
